@@ -1,0 +1,33 @@
+.ask-modal-container {
+  padding: 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+
+  .ask-modal-title {
+    font-size: 24px;
+    font-weight: 100;
+  }
+
+  .ask-modal-text {
+    font-size: 15px;
+  }
+
+  .ask-modal-buttons {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      background-color: #444;
+      padding: 7px;
+      border-radius: 7px;
+      color: var(--text-color);
+
+      &:hover {
+        background-color: #333;
+      }
+    }
+  }
+}
