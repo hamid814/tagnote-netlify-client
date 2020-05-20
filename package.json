@@ -24,7 +24,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "publish": "gh-pages -d build",
-    "deploy": "npm run build && gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build",
+    "netlify": "npm i node-sass && npm run build"
   },
   "homepage": "https://hamid814.github.io/tagnote/",
   "eslintConfig": {
